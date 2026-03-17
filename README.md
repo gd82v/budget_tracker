@@ -1,11 +1,22 @@
 # Budget Tracker
 
-Simple app for tracking personal expenses.
-Users can add transactions, view their spending history, and manage their budget.
-The project demonstrates clean architecture and state management using **Riverpod**.
+Simple Flutter application for tracking income and expenses.  
+Budget Tracker allows users to add and remove transactions and automatically calculates the current balance.
 
-### Features
- - Add new transactions
- - View list of expenses
- - Delete transactions
- - State management with Riverpod
+## Screenshots
+
+![Empty state](Screenshot/Empty%20state.png)
+![Balance](Screenshot/Balance.png)
+![Transaction](Screenshot/Transaction.png)
+
+
+
+## Features
+
+* Add transaction
+* Delete transaction
+* Undo delete action
+* Automatic balance calculation
+* Empty state for new users
+* Responsive layout (phone / tablet)
+* Basic animations

@@ -10,8 +10,10 @@ class BudgetNotifier  extends StateNotifier<BudgetState> {
   }
 
   void removeTransaction (Transaction transaction) {
-    state = BudgetState(transactions: state.transactions.where((t) => t != transaction).toList());
+    state = BudgetState(
+        transactions: state.transactions.where((t) => t != transaction).toList());
   }
 }
 
-final budgetProvider = StateNotifierProvider<BudgetNotifier, BudgetState>((ref) => BudgetNotifier());
+final budgetProvider = StateNotifierProvider<BudgetNotifier,
+    BudgetState>((ref) => BudgetNotifier());
