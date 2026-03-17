@@ -7,7 +7,7 @@ Budget Tracker allows users to add and remove transactions and automatically cal
 
 ![Empty state](Screenshot/Empty%20state.png)
 ![Balance](Screenshot/Balance.png)
-![Transaction](Screenshot/Transaction.png)
+![Transaction](Screenshot/Delete%20message.png)
 
 
 
