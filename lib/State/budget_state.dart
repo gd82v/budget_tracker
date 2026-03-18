@@ -5,7 +5,7 @@ class BudgetState {
 
   BudgetState({
     required this.transactions
-});
+  });
 
   double get balance {
     return transactions.fold(0, (sum, transaction) {
@@ -17,7 +17,7 @@ class BudgetState {
     });
   }
 
-  BudgetState copyWith ({List<Transaction>? transactions}) {
-    return BudgetState(transactions:  transactions ?? this.transactions);
+  BudgetState copyWith({List<Transaction>? transactions}) {
+    return BudgetState(transactions: transactions ?? this.transactions);
   }
 }
